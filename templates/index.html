@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Sistema de visión por computadora</p>
+      <h1 class="hero__title">Detecta enfermedades de plantas con datos confiables.</h1>
+      <p class="hero__subtitle">
+        Esta plantilla frontend en Flask está lista para conectar tu modelo, mostrar resultados
+        y brindar una experiencia clara a agricultores y técnicos.
+      </p>
+      <div class="hero__actions">
+        <button class="button button--primary" type="button">Subir imagen</button>
+        <button class="button button--ghost" type="button">Ver demo</button>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <strong>98%</strong>
+          <span>Precisión estimada</span>
+        </div>
+        <div>
+          <strong>24/7</strong>
+          <span>Monitoreo continuo</span>
+        </div>
+        <div>
+          <strong>3 min</strong>
+          <span>Tiempo de análisis</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__card">
+      <div class="card">
+        <h2>Últimos análisis</h2>
+        <ul class="card__list">
+          <li>
+            <span>Tomate</span>
+            <span class="status status--warning">Riesgo medio</span>
+          </li>
+          <li>
+            <span>Maíz</span>
+            <span class="status status--success">Saludable</span>
+          </li>
+          <li>
+            <span>Chile</span>
+            <span class="status status--danger">Requiere revisión</span>
+          </li>
+        </ul>
+        <button class="button button--secondary" type="button">Ver historial</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <article class="feature">
+      <h3>Panel centralizado</h3>
+      <p>Reúne imágenes, diagnósticos y recomendaciones en un solo tablero.</p>
+    </article>
+    <article class="feature">
+      <h3>Alertas inteligentes</h3>
+      <p>Recibe notificaciones cuando un cultivo necesita atención inmediata.</p>
+    </article>
+    <article class="feature">
+      <h3>Integraciones sencillas</h3>
+      <p>Conecta tu API de modelos y despliega resultados en minutos.</p>
+    </article>
+  </section>
+{% endblock %}
