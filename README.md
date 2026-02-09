@@ -1,2 +1,20 @@
 # BoticariaInnovatec
-Programa que se desarrollara para Innovatecnm el cual consiste de un sistema de vision por computadora para detectar enfermedades de plantas 
+
+Programa que se desarrollará para InnovatecNM. Esta plantilla frontend con Flask sirve como base para un sistema de visión por computadora que detecta enfermedades en plantas.
+
+## Requisitos
+- Python 3.10 o superior.
+
+## Instalación rápida
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Ejecutar la aplicación
+```bash
+python app.py
+```
+
+Luego abre `http://localhost:5000`.
